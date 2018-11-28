@@ -10,6 +10,7 @@
     "build": "webpack --mode production --progress"
   },
   "dependencies": {
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
     "@babel/polyfill": "^7.0.0",
     "@material-ui/core": "^3.3.1",
     "@material-ui/icons": "^3.0.1",

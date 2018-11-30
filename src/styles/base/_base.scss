@@ -15,6 +15,14 @@ h1,
 h2 {
   font-size: 2em;
 }
+.subheading {
+  font-weight: bolder;
+}
+p,
+a {
+  font-weight: 100;
+}
+
 main {
   background: $primary--background--color;
   padding: 20px;
@@ -30,4 +38,16 @@ a {
 .projects__list,
 .contact__list {
   list-style: none;
+}
+
+.tech-icons__container,
+.projects__list__container,
+.about__container,
+.contact__list__container {
+  margin-top: 30px;
+}
+.tech-icons__list,
+.projects__list,
+.contact__list {
+  padding-top: 10px;
 }

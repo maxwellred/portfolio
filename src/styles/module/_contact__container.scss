@@ -1,17 +1,18 @@
 .contact__list__container {
-  grid-column: 2 / 2;
-  grid-row: 1 / span 2;
-  border-bottom: 5px solid $primary--text--color;
+  grid-column: 1 / 1;
+  grid-row: 6;
   display: grid;
-  align-items: center;
-  justify-items: center;
+  justify-items: start;
 
   .contact__list {
     display: flex;
     height: 100%;
     width: 100%;
-    justify-content: space-between;
+    border-top: 5px solid $primary--text--color;
     .contact__list__item {
+      align-self: start;
+      padding-right: 10px;
+
       i {
         font-size: 1.8em;
       }

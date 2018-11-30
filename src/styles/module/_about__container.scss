@@ -1,8 +1,10 @@
 .about__container {
   grid-column: 1 / span 2;
   grid-row: 3;
-  // change to mobile size
-  display: flex;
-  align-items: flex-start;
+  display: grid;
+  align-items: start;
   height: 100%;
+  word-spacing: 0.4em;
+  font-style: italic;
+  text-transform: none;
 }

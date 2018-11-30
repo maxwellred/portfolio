@@ -1,8 +1,14 @@
 @include mediaMd {
+  .tech-icons__container,
+  .projects__list__container,
+  .about__container,
+  .contact__list__container {
+    margin-top: 0px;
+  }
   .portfolio__grid__container {
     grid-template-columns: auto auto auto 1fr;
     grid-template-rows: auto 1fr 1fr auto auto;
-    transform: rotate(-45deg);
+    transform: rotate(-15deg);
   }
   .about__container {
     grid-column: 4 / 5;
@@ -11,24 +17,17 @@
   .contact__list__container {
     grid-column: 4 / 5;
     grid-row: 3 / span 1;
-    border-bottom: 5px solid $primary--text--color;
     justify-items: start;
 
     .contact__list {
       flex-direction: row;
+      justify-content: start;
       .contact__list__item {
         padding: 0 1vw;
       }
       .contact__list__item:nth-child(1) {
         padding-left: 0;
       }
-    }
-  }
-  .grid__line {
-    visibility: visible;
-    &.grid__line__bottom {
-      grid-column: 3 / span 2;
-      grid-row: 5;
     }
   }
   .portfolio--header--red {
@@ -45,8 +44,5 @@
   .tech-icons__container {
     grid-row: 4 / span 1;
     grid-column: 4 / 5;
-    .tech-icons__list {
-      max-width: 130px;
-    }
   }
 }

@@ -2467,7 +2467,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, "/********* Media Query Usage **********/\n/* bring in mixin with @include -> content inside that @include maps to the config file @content\n\n@include mediaSm {\n  main#home h1 {\n    margin-top: 10vh;\n  }\n  .projects {\n    grid-template-columns: 1fr;\n  }\n}\n\n*/\n* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0; }\n\nbody {\n  background: #f6f3ea;\n  text-transform: uppercase;\n  font-family: \"Avenir\", helvetica, san-serif;\n  font-weight: bolder;\n  color: #3b3b37; }\n\nh1,\nh2 {\n  font-size: 2em; }\n\nmain {\n  background: #f6f3ea;\n  padding: 20px; }\n\na {\n  text-decoration: none;\n  color: #3b3b37; }\n  a:hover {\n    color: #f64441; }\n\n.projects__list,\n.contact__list {\n  list-style: none; }\n\n@media screen and (min-width: 740px) {\n  .portfolio__grid__container {\n    grid-template-columns: auto 100px auto 1fr;\n    grid-template-rows: auto 1fr 1fr auto auto;\n    transform: rotate(-45deg); }\n  .about__container {\n    grid-column: 4 / 5;\n    grid-row: 2 / span 1; }\n  .contact__list__container {\n    grid-column: 4 / 5;\n    grid-row: 3 / span 1;\n    border-bottom: 5px solid #3b3b37; }\n  .grid__line {\n    visibility: visible; }\n    .grid__line.grid__line__bottom {\n      grid-column: 3 / span 2;\n      grid-row: 5; }\n  .portfolio--header--red {\n    grid-column: 3 / 4;\n    grid-row: 2 / 5;\n    writing-mode: vertical-rl;\n    align-self: flex-start;\n    line-height: 0.7; }\n  .projects__list__container {\n    grid-column: 1 / 3;\n    grid-row: 4 / span 2; }\n  .tech-icons__container {\n    grid-row: 4 / span 1;\n    grid-column: 4 / 5; }\n    .tech-icons__container .tech-icons__list {\n      max-width: 130px; } }\n\n.grid__line {\n  visibility: hidden;\n  border-bottom: 5px solid #f64441;\n  align-self: flex-end; }\n\n.portfolio__header {\n  grid-column: 1 / 2; }\n\n.portfolio--header--red {\n  align-self: flex-start;\n  color: #f64441;\n  grid-column: 1 / 2; }\n\n.tech-icons__container {\n  grid-row: 4 / span 1;\n  grid-column: 1;\n  align-self: flex-start; }\n  .tech-icons__container p {\n    border-bottom: 5px solid #3b3b37; }\n  .tech-icons__container .tech-icons__list {\n    display: flex;\n    flex-wrap: wrap;\n    list-style-type: none; }\n    .tech-icons__container .tech-icons__list .tech-icons__list__item {\n      padding-right: 10px;\n      position: relative; }\n      .tech-icons__container .tech-icons__list .tech-icons__list__item img,\n      .tech-icons__container .tech-icons__list .tech-icons__list__item i {\n        height: 16px; }\n      .tech-icons__container .tech-icons__list .tech-icons__list__item .tooltip__text {\n        visibility: hidden;\n        color: #fff;\n        background: #3b3b37;\n        border: none;\n        font-size: 10px;\n        border-radius: 10px;\n        position: absolute;\n        top: 0;\n        left: 0;\n        z-index: 10;\n        padding: 5px; }\n      .tech-icons__container .tech-icons__list .tech-icons__list__item .tooltip:hover .tooltip__text {\n        visibility: visible; }\n\n.contact__list__container {\n  grid-column: 2 / 2;\n  grid-row: 1 / span 2;\n  align-items: center;\n  justify-items: center; }\n  .contact__list__container .contact__list {\n    display: flex;\n    flex-direction: column;\n    height: 100%; }\n    .contact__list__container .contact__list .contact__list__item {\n      padding: 0 1vw; }\n      .contact__list__container .contact__list .contact__list__item i {\n        font-size: 1.8em; }\n    .contact__list__container .contact__list .contact__list__item {\n      padding: 0 1vw; }\n      .contact__list__container .contact__list .contact__list__item i {\n        font-size: 1.8em; }\n    .contact__list__container .contact__list .contact__list__item:nth-child(1) {\n      padding-left: 0; }\n    .contact__list__container .contact__list .contact__list__item:nth-child(3) i {\n      font-size: 2em; }\n\n.about__container {\n  grid-column: 1 / span 2;\n  grid-row: 3;\n  display: flex;\n  align-items: flex-start;\n  height: 100%; }\n\n.projects__list__container {\n  grid-row: 4 / span 1;\n  grid-column: 2; }\n  .projects__list__container p {\n    border-bottom: 5px solid #3b3b37; }\n  .projects__list__container .projects__list .projects__list__item {\n    border-bottom: 5px solid #3b3b37; }\n", ""]);
+exports.push([module.i, "/********* Media Query Usage **********/\n/* bring in mixin with @include -> content inside that @include maps to the config file @content\n\n@include mediaSm {\n  main#home h1 {\n    margin-top: 10vh;\n  }\n  .projects {\n    grid-template-columns: 1fr;\n  }\n}\n\n*/\n* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0; }\n\nbody {\n  background: #262626;\n  text-transform: uppercase;\n  font-family: \"Avenir\", helvetica, san-serif;\n  font-weight: bolder;\n  color: #ffffff; }\n\nh1,\nh2 {\n  font-size: 2em; }\n\n.subheading {\n  font-weight: bolder; }\n\np,\na {\n  font-weight: 100; }\n\nmain {\n  background: #262626;\n  padding: 20px; }\n\na {\n  text-decoration: none;\n  color: #ffffff; }\n  a:hover {\n    color: #fd2cfc; }\n\n.projects__list,\n.contact__list {\n  list-style: none; }\n\n.tech-icons__container,\n.projects__list__container,\n.about__container,\n.contact__list__container {\n  margin-top: 30px; }\n\n.tech-icons__list,\n.projects__list,\n.contact__list {\n  padding-top: 10px; }\n\n.portfolio__flex__container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  min-height: 100vh; }\n\n.portfolio__grid__container {\n  display: grid;\n  grid-template-columns: auto auto;\n  align-items: center;\n  max-width: 600px;\n  grid-gap: 10px; }\n\n.portfolio__header {\n  grid-column: 1 / 2; }\n\n.portfolio--header--red {\n  align-self: flex-start;\n  color: #fd2cfc;\n  grid-column: 1 / span 2;\n  word-spacing: 0.7em; }\n\n.tech-icons__container {\n  grid-row: 4 / span 1;\n  grid-column: 1;\n  align-self: flex-start; }\n  .tech-icons__container p {\n    border-bottom: 5px solid #ffffff; }\n  .tech-icons__container .tech-icons__list {\n    display: flex;\n    flex-wrap: wrap;\n    list-style-type: none; }\n    .tech-icons__container .tech-icons__list .tech-icons__list__item {\n      padding-right: 10px;\n      position: relative; }\n      .tech-icons__container .tech-icons__list .tech-icons__list__item img,\n      .tech-icons__container .tech-icons__list .tech-icons__list__item i {\n        height: 16px; }\n      .tech-icons__container .tech-icons__list .tech-icons__list__item img:not(.color) {\n        filter: invert(100%); }\n\n.contact__list__container {\n  grid-column: 1 / 1;\n  grid-row: 6;\n  display: grid;\n  justify-items: start; }\n  .contact__list__container .contact__list {\n    display: flex;\n    height: 100%;\n    width: 100%;\n    border-top: 5px solid #ffffff; }\n    .contact__list__container .contact__list .contact__list__item {\n      align-self: start;\n      padding-right: 10px; }\n      .contact__list__container .contact__list .contact__list__item i {\n        font-size: 1.8em; }\n    .contact__list__container .contact__list .contact__list__item:nth-child(3) i {\n      font-size: 2em; }\n\n.about__container {\n  grid-column: 1 / span 2;\n  grid-row: 3;\n  display: grid;\n  align-items: start;\n  height: 100%;\n  word-spacing: 0.4em;\n  font-style: italic;\n  text-transform: none; }\n\n.projects__list__container {\n  grid-row: 5 / span 1;\n  grid-column: 1;\n  align-self: flex-start; }\n  .projects__list__container p {\n    border-bottom: 5px solid #ffffff; }\n\n@media screen and (min-width: 740px) {\n  .tech-icons__container,\n  .projects__list__container,\n  .about__container,\n  .contact__list__container {\n    margin-top: 0px; }\n  .portfolio__grid__container {\n    grid-template-columns: auto auto auto 1fr;\n    grid-template-rows: auto 1fr 1fr auto auto;\n    transform: rotate(-15deg); }\n  .about__container {\n    grid-column: 4 / 5;\n    grid-row: 2 / span 1; }\n  .contact__list__container {\n    grid-column: 4 / 5;\n    grid-row: 3 / span 1;\n    justify-items: start; }\n    .contact__list__container .contact__list {\n      flex-direction: row;\n      justify-content: start; }\n      .contact__list__container .contact__list .contact__list__item {\n        padding: 0 1vw; }\n      .contact__list__container .contact__list .contact__list__item:nth-child(1) {\n        padding-left: 0; }\n  .portfolio--header--red {\n    grid-column: 2;\n    grid-row: 2 / 5;\n    writing-mode: vertical-rl;\n    align-self: flex-start;\n    line-height: 0.7; }\n  .projects__list__container {\n    grid-column: 1 / 2;\n    grid-row: 4 / span 2; }\n  .tech-icons__container {\n    grid-row: 4 / span 1;\n    grid-column: 4 / 5; }\n    .tech-icons__container .tech-icons__list {\n      max-width: 130px; } }\n", ""]);
 
 // exports
 
@@ -24388,20 +24388,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_webpack_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_assets_webpack_png__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _assets_postgresql_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../assets/postgresql.png */ "./src/assets/postgresql.png");
 /* harmony import */ var _assets_postgresql_png__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_assets_postgresql_png__WEBPACK_IMPORTED_MODULE_6__);
-function _defineProperty(obj, key, value) {
-  if (key in obj) {
-    Object.defineProperty(obj, key, {
-      value: value,
-      enumerable: true,
-      configurable: true,
-      writable: true
-    });
-  } else {
-    obj[key] = value;
-  }
-
-  return obj;
-}
 
 
 
@@ -24409,141 +24395,129 @@ function _defineProperty(obj, key, value) {
 
 
 
-
-class Portfolio extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
-  constructor() {
-    super(...arguments);
-
-    _defineProperty(this, "show", event => {// document.querySelector()
-      // let target = event.target;
-      // console.log("HOVER", target);
-    });
-  } // hide = event => {
-  // }
-
-
-  render() {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "portfolio__flex__container"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", {
-      className: "portfolio__grid__container"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-      className: "portfolio__header"
-    }, "Max Rediker"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-      className: "portfolio__header portfolio--header--red"
-    }, "Full Stack Developer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
-      className: "grid__line grid__line__bottom"
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "projects__list__container"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Projects:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-      className: "projects__list"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "projects__list__item"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-      target: "_blank",
-      href: "\u200Bhttps://github.com/GitHubMaxwell/dockerteam"
-    }, "CF Docker")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "projects__list__item"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-      target: "_blank",
-      href: "https://github.com/code-commando/dashboard-electron"
-    }, "CF Dashboard")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "projects__list__item"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-      target: "_blank",
-      href: "https://github.com/GitHubMaxwell?tab=repositories"
-    }, "More...")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "contact__list__container"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-      className: "contact__list"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "contact__list__item"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-      target: "_blank",
-      href: "https://github.com/GitHubMaxwell"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-      className: "fab fa-github fa-2x"
-    }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "contact__list__item"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-      target: "_blank",
-      href: "https://www.linkedin.com/in/maxwellrediker/"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-      className: "fab fa-linkedin fa-2x"
-    }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "contact__list__item"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-      href: "mailto:maxwell.rediker@gmail.com"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-      className: "far fa-envelope"
-    }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "about__container"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Fullstack JavaScript developer with a service and sales background. Highly motivated to work on skilled teams to build and support intuitive applications that solve hard business and client facing issues.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "tech-icons__container"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Tech:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-      className: "tech-icons__list"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      onMouseOver: this.show,
-      className: "tech-icons__list__item tooltip"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-      className: "fab fa-js"
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-      className: "tooltip__text"
-    }, "JavaScript")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "tech-icons__list__item"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-      className: "fab fa-node-js"
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "tech-icons__list__item"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-      className: "fab fa-react"
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "tech-icons__list__item"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: _assets_webpack_png__WEBPACK_IMPORTED_MODULE_5___default.a
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "tech-icons__list__item"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-      className: "fab fa-html5"
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "tech-icons__list__item"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-      className: "fab fa-css3-alt"
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "tech-icons__list__item"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-      className: "fab fa-sass"
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "tech-icons__list__item"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-      className: "fab fa-aws"
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "tech-icons__list__item"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-      className: "fab fa-docker"
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "tech-icons__list__item"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: _assets_git_png__WEBPACK_IMPORTED_MODULE_2___default.a
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "tech-icons__list__item"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: _assets_heroku_png__WEBPACK_IMPORTED_MODULE_3___default.a
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "tech-icons__list__item"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: _assets_postgresql_png__WEBPACK_IMPORTED_MODULE_6___default.a
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "tech-icons__list__item"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: _assets_mongodb_png__WEBPACK_IMPORTED_MODULE_1___default.a
-    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "tech-icons__list__item"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: _assets_jquery_png__WEBPACK_IMPORTED_MODULE_4___default.a
-    }))))));
-  }
-
+function Portfolio() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "portfolio__flex__container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", {
+    className: "portfolio__grid__container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "portfolio__header"
+  }, "Max Rediker"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "portfolio__header portfolio--header--red"
+  }, "Full-Stack Developer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "projects__list__container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "subheading"
+  }, "Projects:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "projects__list"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "projects__list__item"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    target: "_blank",
+    href: "https://github.com/githubmaxwell/dockerteam"
+  }, "CF Docker")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "projects__list__item"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    target: "_blank",
+    href: "https://github.com/code-commando/dashboard-electron"
+  }, "CF Dashboard")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "projects__list__item"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    target: "_blank",
+    href: "https://github.com/GitHubMaxwell?tab=repositories"
+  }, "More...")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "contact__list__container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "subheading"
+  }, "Contact:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "contact__list"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "contact__list__item"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    target: "_blank",
+    href: "https://github.com/GitHubMaxwell"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fab fa-github fa-2x"
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "contact__list__item"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    target: "_blank",
+    href: "https://www.linkedin.com/in/maxwellrediker/"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fab fa-linkedin fa-2x"
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "contact__list__item"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "mailto:maxwell.rediker@gmail.com"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "far fa-envelope"
+  }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "about__container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Fullstack JavaScript developer with a service and sales background. Highly motivated to work on skilled teams to build and support intuitive applications that solve hard business and client facing issues.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "tech-icons__container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "subheading"
+  }, "Tech:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "tech-icons__list"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "tech-icons__list__item tooltip"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fab fa-js"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "tech-icons__list__item"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fab fa-node-js"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "tech-icons__list__item"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fab fa-react"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "tech-icons__list__item"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "color",
+    src: _assets_webpack_png__WEBPACK_IMPORTED_MODULE_5___default.a
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "tech-icons__list__item"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fab fa-html5"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "tech-icons__list__item"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fab fa-css3-alt"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "tech-icons__list__item"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fab fa-sass"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "tech-icons__list__item"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fab fa-aws"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "tech-icons__list__item"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fab fa-docker"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "tech-icons__list__item"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _assets_git_png__WEBPACK_IMPORTED_MODULE_2___default.a
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "tech-icons__list__item"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _assets_heroku_png__WEBPACK_IMPORTED_MODULE_3___default.a
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "tech-icons__list__item"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _assets_postgresql_png__WEBPACK_IMPORTED_MODULE_6___default.a
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "tech-icons__list__item"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "color",
+    src: _assets_mongodb_png__WEBPACK_IMPORTED_MODULE_1___default.a
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "tech-icons__list__item"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _assets_jquery_png__WEBPACK_IMPORTED_MODULE_4___default.a
+  }))))));
 }
 
 /***/ }),

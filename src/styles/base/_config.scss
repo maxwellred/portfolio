@@ -1,7 +1,10 @@
 // Color Palette
-$primary--text--color: #3b3b37;
-$secondary--text--color: #f64441;
-$primary--background--color: #f6f3ea;
+// $primary--text--color: #3b3b37;
+$primary--text--color: #ffffff;
+$secondary--text--color: #fd2cfc;
+// $primary--background--color: #f6f3ea;
+// $primary--background--color: #262626;
+$primary--background--color: #373737;
 $secondary--background--color: #fff;
 
 @function set-text-color($color) {
@@ -31,14 +34,15 @@ $body-font: Times;
 // ============
 
 // Media Queries
-@mixin mediaSm {
-  @media screen and (max-width: 739px) {
-    @content;
-  }
-}
+// @mixin mediaSm {
+//   @media screen and (max-width: 739px) {
+//     @content;
+//   }
+// }
 
 @mixin mediaMd {
   @media screen and (min-width: 740px) {
+    // @media (min-width: 740px) {
     @content;
   }
 }

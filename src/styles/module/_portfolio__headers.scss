@@ -1,12 +1,9 @@
 .portfolio__header {
-  grid-column: 1 / 4;
+  grid-column: 1 / 2;
 }
 .portfolio--header--red {
   align-self: flex-start;
-  line-height: 0.7;
   color: $secondary--text--color;
-  // writing-mode: vertical-rl;
-  // grid-column: 3 / 4;
-  // grid-row: 2 / 5;
-  // change to mobile config
+  grid-column: 1 / span 2;
+  word-spacing: 0.7em;
 }

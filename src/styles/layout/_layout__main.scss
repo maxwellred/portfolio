@@ -6,10 +6,7 @@
 }
 .portfolio__grid__container {
   display: grid;
-  // change this to the mobile grid size
-  grid-template-columns: auto 100px auto 1fr;
-  grid-template-rows: auto 1fr 1fr auto auto;
-  ////=================
+  grid-template-columns: auto auto;
   align-items: center;
   max-width: 600px;
   grid-gap: 10px;

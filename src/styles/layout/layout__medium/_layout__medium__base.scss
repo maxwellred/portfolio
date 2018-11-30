@@ -1,8 +1,14 @@
 @include mediaMd {
+  .tech-icons__container,
+  .projects__list__container,
+  .about__container,
+  .contact__list__container {
+    margin-top: 0px;
+  }
   .portfolio__grid__container {
-    grid-template-columns: auto 100px auto 1fr;
+    grid-template-columns: auto auto auto 1fr;
     grid-template-rows: auto 1fr 1fr auto auto;
-    transform: rotate(-45deg);
+    transform: rotate(-15deg);
   }
   .about__container {
     grid-column: 4 / 5;
@@ -11,25 +17,28 @@
   .contact__list__container {
     grid-column: 4 / 5;
     grid-row: 3 / span 1;
-  }
-  .grid__line {
-    &.grid__line__bottom {
-      grid-column: 3 / span 2;
-      grid-row: 5;
+    justify-items: start;
+
+    .contact__list {
+      flex-direction: row;
+      justify-content: start;
+      .contact__list__item {
+        padding: 0 1vw;
+      }
+      .contact__list__item:nth-child(1) {
+        padding-left: 0;
+      }
     }
   }
-  // .portfolio__header {
-  //   grid-column: 1 / 4;
-  // }
   .portfolio--header--red {
-    grid-column: 3 / 4;
+    grid-column: 2;
     grid-row: 2 / 5;
     writing-mode: vertical-rl;
     align-self: flex-start;
     line-height: 0.7;
   }
   .projects__list__container {
-    grid-column: 1 / 3;
+    grid-column: 1 / 2;
     grid-row: 4 / span 2;
   }
   .tech-icons__container {

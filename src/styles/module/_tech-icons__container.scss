@@ -1,7 +1,6 @@
 .tech-icons__container {
-  // grid-row: 4 / span 1;
-  // grid-column: 4 / 5;
-  // change to mobile
+  grid-row: 4 / span 1;
+  grid-column: 1;
   align-self: flex-start;
   p {
     border-bottom: 5px solid $primary--text--color;
@@ -10,37 +9,17 @@
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
-    max-width: 130px;
     .tech-icons__list__item {
       padding-right: 10px;
       position: relative;
       img,
       i {
-        height: 16px;
+        height: 20px;
+        font-size: 20px;
       }
-      .tooltip__text {
-        visibility: hidden;
-        color: $secondary--background--color;
-        background: $primary--text--color;
-        border: none;
-        font-size: 10px;
-        border-radius: 10px;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 10;
-        padding: 5px;
+      img:not(.color) {
+        filter: invert(100%);
       }
-      .tooltip:hover .tooltip__text {
-        visibility: visible;
-      }
-      // &.tooltip,
-      // .tooltip__text {
-      //   visibility: hidden;
-      //   &:hover .tooltip__text {
-      //     visibility: visible;
-      //   }
-      // }
     }
   }
 }

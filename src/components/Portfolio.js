@@ -30,7 +30,7 @@ export default class Portfolio extends Component {
               <li className="projects__list__item">
                 <a
                   target="_blank"
-                  href="​https://github.com/GitHubMaxwell/dockerteam"
+                  href="https://github.com/githubmaxwell/dockerteam"
                 >
                   CF Docker
                 </a>

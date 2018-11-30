@@ -2467,7 +2467,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, "/********* Media Query Usage **********/\n/* bring in mixin with @include -> content inside that @include maps to the config file @content\n\n@include mediaSm {\n  main#home h1 {\n    margin-top: 10vh;\n  }\n  .projects {\n    grid-template-columns: 1fr;\n  }\n}\n\n*/\n@media screen and (max-width: 500px) {\n  .portfolio__grid__container {\n    transform: rotate(-45deg); } }\n\n* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0; }\n\nbody {\n  background: #f6f3ea;\n  text-transform: uppercase;\n  font-family: \"Avenir\", helvetica, san-serif;\n  font-weight: bolder;\n  color: #3b3b37; }\n\nh1,\nh2 {\n  font-size: 2em; }\n\nmain {\n  background: #f6f3ea;\n  padding: 20px; }\n\na {\n  text-decoration: none;\n  color: #3b3b37; }\n  a:hover {\n    color: #f64441; }\n\n.grid__line {\n  border-bottom: 5px solid #f64441;\n  align-self: flex-end; }\n  .grid__line.grid__line__bottom {\n    grid-row: 5;\n    grid-column: 3 / span 2; }\n\n.portfolio__flex__container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  min-height: 100vh; }\n\n.portfolio__grid__container {\n  display: grid;\n  align-items: center;\n  max-width: 600px;\n  transform: rotate(-45deg);\n  grid-template-columns: auto 100px auto 1fr;\n  grid-template-rows: auto 1fr 1fr auto auto;\n  grid-gap: 10px; }\n\n.projects__list,\n.icons__list {\n  list-style: none; }\n\n.portfolio__header {\n  grid-column: 1 / 4; }\n\n.portfolio--header--red {\n  align-self: flex-start;\n  line-height: 0.7;\n  color: #f64441;\n  writing-mode: vertical-rl;\n  grid-column: 3 / 4;\n  grid-row: 2 / 5; }\n\n.projects__list__container {\n  grid-column: 1 / 3;\n  grid-row: 4 / span 2; }\n  .projects__list__container p {\n    border-bottom: 5px solid #3b3b37; }\n  .projects__list__container .projects__list .projects__list__item {\n    border-bottom: 5px solid #3b3b37; }\n\n.icons__list__container {\n  grid-column: 4 / 5;\n  grid-row: 3 / span 1;\n  border-bottom: 5px solid #3b3b37; }\n  .icons__list__container .icons__list {\n    display: flex;\n    justify-content: flex-start;\n    align-items: flex-end;\n    height: 100%; }\n    .icons__list__container .icons__list .icons__list__item {\n      padding: 0 1vw; }\n      .icons__list__container .icons__list .icons__list__item i {\n        font-size: 1.8em; }\n    .icons__list__container .icons__list .icons__list__item {\n      padding: 0 1vw; }\n      .icons__list__container .icons__list .icons__list__item i {\n        font-size: 1.8em; }\n    .icons__list__container .icons__list .icons__list__item:nth-child(1) {\n      padding-left: 0; }\n    .icons__list__container .icons__list .icons__list__item:nth-child(3) i {\n      font-size: 2em; }\n\n.tech__container {\n  grid-row: 4 / span 1;\n  grid-column: 4 / 5;\n  align-self: flex-start; }\n  .tech__container p {\n    border-bottom: 5px solid #3b3b37; }\n  .tech__container .tech__list {\n    display: flex;\n    flex-wrap: wrap;\n    list-style-type: none;\n    max-width: 130px; }\n    .tech__container .tech__list .tech__list__item {\n      padding-right: 10px;\n      position: relative; }\n      .tech__container .tech__list .tech__list__item img,\n      .tech__container .tech__list .tech__list__item i {\n        height: 16px; }\n      .tech__container .tech__list .tech__list__item .tooltip__text {\n        visibility: hidden;\n        color: #fff;\n        background: #3b3b37;\n        border: none;\n        font-size: 10px;\n        border-radius: 10px;\n        position: absolute;\n        top: 0;\n        left: 0;\n        z-index: 10;\n        padding: 5px; }\n      .tech__container .tech__list .tech__list__item .tooltip:hover .tooltip__text {\n        visibility: visible; }\n\n.aboutme__container {\n  grid-column: 4 / 5;\n  grid-row: 2 / span 1;\n  display: flex;\n  align-items: flex-start;\n  height: 100%; }\n", ""]);
+exports.push([module.i, "/********* Media Query Usage **********/\n/* bring in mixin with @include -> content inside that @include maps to the config file @content\n\n@include mediaSm {\n  main#home h1 {\n    margin-top: 10vh;\n  }\n  .projects {\n    grid-template-columns: 1fr;\n  }\n}\n\n*/\n* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0; }\n\nbody {\n  background: #f6f3ea;\n  text-transform: uppercase;\n  font-family: \"Avenir\", helvetica, san-serif;\n  font-weight: bolder;\n  color: #3b3b37; }\n\nh1,\nh2 {\n  font-size: 2em; }\n\nmain {\n  background: #f6f3ea;\n  padding: 20px; }\n\na {\n  text-decoration: none;\n  color: #3b3b37; }\n  a:hover {\n    color: #f64441; }\n\n.projects__list,\n.contact__list {\n  list-style: none; }\n\n@media screen and (min-width: 740px) {\n  .portfolio__grid__container {\n    grid-template-columns: auto 100px auto 1fr;\n    grid-template-rows: auto 1fr 1fr auto auto;\n    transform: rotate(-45deg); }\n  .about__container {\n    grid-column: 4 / 5;\n    grid-row: 2 / span 1; }\n  .contact__list__container {\n    grid-column: 4 / 5;\n    grid-row: 3 / span 1;\n    border-bottom: 5px solid #3b3b37; }\n  .grid__line {\n    visibility: visible; }\n    .grid__line.grid__line__bottom {\n      grid-column: 3 / span 2;\n      grid-row: 5; }\n  .portfolio--header--red {\n    grid-column: 3 / 4;\n    grid-row: 2 / 5;\n    writing-mode: vertical-rl;\n    align-self: flex-start;\n    line-height: 0.7; }\n  .projects__list__container {\n    grid-column: 1 / 3;\n    grid-row: 4 / span 2; }\n  .tech-icons__container {\n    grid-row: 4 / span 1;\n    grid-column: 4 / 5; }\n    .tech-icons__container .tech-icons__list {\n      max-width: 130px; } }\n\n.grid__line {\n  visibility: hidden;\n  border-bottom: 5px solid #f64441;\n  align-self: flex-end; }\n\n.portfolio__header {\n  grid-column: 1 / 2; }\n\n.portfolio--header--red {\n  align-self: flex-start;\n  color: #f64441;\n  grid-column: 1 / 2; }\n\n.tech-icons__container {\n  grid-row: 4 / span 1;\n  grid-column: 1;\n  align-self: flex-start; }\n  .tech-icons__container p {\n    border-bottom: 5px solid #3b3b37; }\n  .tech-icons__container .tech-icons__list {\n    display: flex;\n    flex-wrap: wrap;\n    list-style-type: none; }\n    .tech-icons__container .tech-icons__list .tech-icons__list__item {\n      padding-right: 10px;\n      position: relative; }\n      .tech-icons__container .tech-icons__list .tech-icons__list__item img,\n      .tech-icons__container .tech-icons__list .tech-icons__list__item i {\n        height: 16px; }\n      .tech-icons__container .tech-icons__list .tech-icons__list__item .tooltip__text {\n        visibility: hidden;\n        color: #fff;\n        background: #3b3b37;\n        border: none;\n        font-size: 10px;\n        border-radius: 10px;\n        position: absolute;\n        top: 0;\n        left: 0;\n        z-index: 10;\n        padding: 5px; }\n      .tech-icons__container .tech-icons__list .tech-icons__list__item .tooltip:hover .tooltip__text {\n        visibility: visible; }\n\n.contact__list__container {\n  grid-column: 2 / 2;\n  grid-row: 1 / span 2;\n  align-items: center;\n  justify-items: center; }\n  .contact__list__container .contact__list {\n    display: flex;\n    flex-direction: column;\n    height: 100%; }\n    .contact__list__container .contact__list .contact__list__item {\n      padding: 0 1vw; }\n      .contact__list__container .contact__list .contact__list__item i {\n        font-size: 1.8em; }\n    .contact__list__container .contact__list .contact__list__item {\n      padding: 0 1vw; }\n      .contact__list__container .contact__list .contact__list__item i {\n        font-size: 1.8em; }\n    .contact__list__container .contact__list .contact__list__item:nth-child(1) {\n      padding-left: 0; }\n    .contact__list__container .contact__list .contact__list__item:nth-child(3) i {\n      font-size: 2em; }\n\n.about__container {\n  grid-column: 1 / span 2;\n  grid-row: 3;\n  display: flex;\n  align-items: flex-start;\n  height: 100%; }\n\n.projects__list__container {\n  grid-row: 4 / span 1;\n  grid-column: 2; }\n  .projects__list__container p {\n    border-bottom: 5px solid #3b3b37; }\n  .projects__list__container .projects__list .projects__list__item {\n    border-bottom: 5px solid #3b3b37; }\n", ""]);
 
 // exports
 
@@ -24405,7 +24405,6 @@ function _defineProperty(obj, key, value) {
 
 
 
- // import github from '../assets/github.png';
 
 
 
@@ -24415,10 +24414,9 @@ class Portfolio extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   constructor() {
     super(...arguments);
 
-    _defineProperty(this, "show", event => {
-      // document.querySelector()
-      let target = event.target;
-      console.log("HOVER", target);
+    _defineProperty(this, "show", event => {// document.querySelector()
+      // let target = event.target;
+      // console.log("HOVER", target);
     });
   } // hide = event => {
   // }
@@ -24455,92 +24453,92 @@ class Portfolio extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       target: "_blank",
       href: "https://github.com/GitHubMaxwell?tab=repositories"
     }, "More...")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "icons__list__container"
+      className: "contact__list__container"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-      className: "icons__list"
+      className: "contact__list"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "icons__list__item"
+      className: "contact__list__item"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
       target: "_blank",
       href: "https://github.com/GitHubMaxwell"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
       className: "fab fa-github fa-2x"
     }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "icons__list__item"
+      className: "contact__list__item"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
       target: "_blank",
       href: "https://www.linkedin.com/in/maxwellrediker/"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
       className: "fab fa-linkedin fa-2x"
     }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "icons__list__item"
+      className: "contact__list__item"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
       href: "mailto:maxwell.rediker@gmail.com"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
       className: "far fa-envelope"
     }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "aboutme__container"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document without relying on meaningful content.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "tech__container"
+      className: "about__container"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Fullstack JavaScript developer with a service and sales background. Highly motivated to work on skilled teams to build and support intuitive applications that solve hard business and client facing issues.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "tech-icons__container"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Tech:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-      className: "tech__list"
+      className: "tech-icons__list"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
       onMouseOver: this.show,
-      className: "tech__list__item tooltip"
+      className: "tech-icons__list__item tooltip"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
       className: "fab fa-js"
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
       className: "tooltip__text"
     }, "JavaScript")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "tech__list__item"
+      className: "tech-icons__list__item"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
       className: "fab fa-node-js"
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "tech__list__item"
+      className: "tech-icons__list__item"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
       className: "fab fa-react"
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "tech__list__item"
+      className: "tech-icons__list__item"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
       src: _assets_webpack_png__WEBPACK_IMPORTED_MODULE_5___default.a
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "tech__list__item"
+      className: "tech-icons__list__item"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
       className: "fab fa-html5"
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "tech__list__item"
+      className: "tech-icons__list__item"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
       className: "fab fa-css3-alt"
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "tech__list__item"
+      className: "tech-icons__list__item"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
       className: "fab fa-sass"
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "tech__list__item"
+      className: "tech-icons__list__item"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
       className: "fab fa-aws"
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "tech__list__item"
+      className: "tech-icons__list__item"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
       className: "fab fa-docker"
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "tech__list__item"
+      className: "tech-icons__list__item"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
       src: _assets_git_png__WEBPACK_IMPORTED_MODULE_2___default.a
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "tech__list__item"
+      className: "tech-icons__list__item"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
       src: _assets_heroku_png__WEBPACK_IMPORTED_MODULE_3___default.a
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "tech__list__item"
+      className: "tech-icons__list__item"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
       src: _assets_postgresql_png__WEBPACK_IMPORTED_MODULE_6___default.a
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "tech__list__item"
+      className: "tech-icons__list__item"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
       src: _assets_mongodb_png__WEBPACK_IMPORTED_MODULE_1___default.a
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "tech__list__item"
+      className: "tech-icons__list__item"
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
       src: _assets_jquery_png__WEBPACK_IMPORTED_MODULE_4___default.a
     }))))));

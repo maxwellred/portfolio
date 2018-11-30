@@ -1,33 +1,20 @@
 .contact__list__container {
   grid-column: 2 / 2;
   grid-row: 1 / span 2;
-  // change to mobile size
-  // border-bottom: 5px solid $primary--text--color;
+  border-bottom: 5px solid $primary--text--color;
+  display: grid;
   align-items: center;
   justify-items: center;
 
   .contact__list {
     display: flex;
-    // justify-content: flex-start;
-    // justify-content: center;
-    // align-items: flex-end;
-    flex-direction: column;
     height: 100%;
-
+    width: 100%;
+    justify-content: space-between;
     .contact__list__item {
-      padding: 0 1vw;
       i {
         font-size: 1.8em;
       }
-    }
-    .contact__list__item {
-      padding: 0 1vw;
-      i {
-        font-size: 1.8em;
-      }
-    }
-    .contact__list__item:nth-child(1) {
-      padding-left: 0;
     }
     .contact__list__item:nth-child(3) {
       i {

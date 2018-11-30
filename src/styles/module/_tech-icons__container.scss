@@ -1,6 +1,6 @@
 .tech-icons__container {
-  // grid-row: 4 / span 1;
-  // grid-column: 4 / 5;
+  grid-row: 4 / span 1;
+  grid-column: 1;
   // change to mobile
   align-self: flex-start;
   p {
@@ -10,7 +10,7 @@
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
-    max-width: 130px;
+    // max-width: 130px;
     .tech-icons__list__item {
       padding-right: 10px;
       position: relative;

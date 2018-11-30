@@ -31,11 +31,11 @@ $body-font: Times;
 // ============
 
 // Media Queries
-@mixin mediaSm {
-  @media screen and (max-width: 739px) {
-    @content;
-  }
-}
+// @mixin mediaSm {
+//   @media screen and (max-width: 739px) {
+//     @content;
+//   }
+// }
 
 @mixin mediaMd {
   @media screen and (min-width: 740px) {

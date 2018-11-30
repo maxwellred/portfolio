@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: $primary--background--color;
+  text-transform: uppercase;
+  font-family: "Avenir", helvetica, san-serif;
+  font-weight: bolder;
+  color: $primary--text--color;
+}
+h1,
+h2 {
+  font-size: 2em;
+}
+main {
+  background: $primary--background--color;
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+  color: $primary--text--color;
+  &:hover {
+    color: $secondary--text--color;
+  }
+}
+
+.projects__list,
+.contact__list {
+  list-style: none;
+}

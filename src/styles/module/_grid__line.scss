@@ -1,0 +1,8 @@
+.grid__line {
+  border-bottom: 5px solid $secondary--text--color;
+  align-self: flex-end;
+  &.grid__line__bottom {
+    // grid-row: 5;
+    // grid-column: 3 / span 2;
+  }
+}

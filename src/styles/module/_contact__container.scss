@@ -1,0 +1,35 @@
+.contact__list__container {
+  // grid-column: 4 / 5;
+  // grid-row: 3 / span 1;
+  // change to mobile size
+
+  border-bottom: 5px solid $primary--text--color;
+
+  .contact__list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 100%;
+
+    .contact__list__item {
+      padding: 0 1vw;
+      i {
+        font-size: 1.8em;
+      }
+    }
+    .contact__list__item {
+      padding: 0 1vw;
+      i {
+        font-size: 1.8em;
+      }
+    }
+    .contact__list__item:nth-child(1) {
+      padding-left: 0;
+    }
+    .contact__list__item:nth-child(3) {
+      i {
+        font-size: 2em;
+      }
+    }
+  }
+}

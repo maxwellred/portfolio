@@ -24424,6 +24424,11 @@ function Portfolio() {
     className: "projects__list__item"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     target: "_blank",
+    href: "https://githubmaxwell.github.io/mondrian/"
+  }, "Mondrian Painting")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "projects__list__item"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    target: "_blank",
     href: "https://github.com/GitHubMaxwell"
   }, "More...")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "contact__list__container"

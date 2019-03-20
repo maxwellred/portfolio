@@ -29,6 +29,11 @@ export default function Portfolio() {
               </a>
             </li>
             <li className="projects__list__item">
+              <a target="_blank" href="https://githubmaxwell.github.io/mondrian/">
+                Mondrian Painting
+              </a>
+            </li>
+            <li className="projects__list__item">
               <a target="_blank" href="https://github.com/GitHubMaxwell">
                 More...
               </a>

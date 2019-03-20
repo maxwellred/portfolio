@@ -1,43 +1,35 @@
-import React from "react";
-import mongodb from "../assets/mongodb.png";
-import git from "../assets/git.png";
-import heroku from "../assets/heroku.png";
-import jquery from "../assets/jquery.png";
-import webpack from "../assets/webpack.png";
-import postgresql from "../assets/postgresql.png";
+import React from 'react';
+import mongodb from '../assets/mongodb.png';
+import git from '../assets/git.png';
+import heroku from '../assets/heroku.png';
+import jquery from '../assets/jquery.png';
+import webpack from '../assets/webpack.png';
+import postgresql from '../assets/postgresql.png';
 
 export default function Portfolio() {
   return (
     <div className="portfolio__flex__container">
       <main className="portfolio__grid__container">
         <h1 className="portfolio__header">Max Rediker</h1>
-        <h2 className="portfolio__header portfolio--header--red">
-          Full-Stack Developer
-        </h2>
+        <h2 className="portfolio__header portfolio--header--red">Full-Stack Developer</h2>
         <div className="projects__list__container">
           <p className="subheading">Projects:</p>
           <ul className="projects__list">
             <li className="projects__list__item">
               <a
                 target="_blank"
-                href="https://github.com/githubmaxwell/dockerteam"
+                href="https://democracy-labs-ui-proto.github.io/democracylab_ui_proto/"
               >
-                CF Docker
+                Mobile Prototype
               </a>
             </li>
             <li className="projects__list__item">
-              <a
-                target="_blank"
-                href="https://github.com/code-commando/dashboard-electron"
-              >
-                CF Dashboard
+              <a target="_blank" href="https://sgc2018-etap-web.herokuapp.com/">
+                Recycle App
               </a>
             </li>
             <li className="projects__list__item">
-              <a
-                target="_blank"
-                href="https://github.com/GitHubMaxwell?tab=repositories"
-              >
+              <a target="_blank" href="https://github.com/GitHubMaxwell">
                 More...
               </a>
             </li>
@@ -52,10 +44,7 @@ export default function Portfolio() {
               </a>
             </li>
             <li className="contact__list__item">
-              <a
-                target="_blank"
-                href="https://www.linkedin.com/in/maxwellrediker/"
-              >
+              <a target="_blank" href="https://www.linkedin.com/in/maxwellrediker/">
                 <i className="fab fa-linkedin fa-2x" />
               </a>
             </li>
@@ -68,11 +57,10 @@ export default function Portfolio() {
         </div>
         <div className="about__container">
           <p>
-            Hey! I'm Max and I am a Full-Stack Developer. MERN stack is my bread
-            and butter but like most developers, I'm always learning new
-            technologies and trying new things. I enjoy spending my free time
-            going to meetups, hackathons, and collaborating with others to build
-            interesting and challenging projects. Lets connect!
+            Hey! I'm Max and I am a Full-Stack Developer. MERN stack is my bread and butter but like
+            most developers, I'm always learning new technologies and trying new things. I enjoy
+            spending my free time going to meetups, hackathons, and collaborating with others to
+            build interesting and challenging projects. Lets connect!
           </p>
         </div>
         <div className="tech-icons__container">

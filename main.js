@@ -24414,17 +24414,17 @@ function Portfolio() {
     className: "projects__list__item"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     target: "_blank",
-    href: "https://github.com/githubmaxwell/dockerteam"
-  }, "CF Docker")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    href: "https://democracy-labs-ui-proto.github.io/democracylab_ui_proto/"
+  }, "Mobile Prototype")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "projects__list__item"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     target: "_blank",
-    href: "https://github.com/code-commando/dashboard-electron"
-  }, "CF Dashboard")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    href: "https://sgc2018-etap-web.herokuapp.com/"
+  }, "Recycle App")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "projects__list__item"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     target: "_blank",
-    href: "https://github.com/GitHubMaxwell?tab=repositories"
+    href: "https://github.com/GitHubMaxwell"
   }, "More...")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "contact__list__container"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {

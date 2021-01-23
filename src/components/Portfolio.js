@@ -7,14 +7,6 @@ import webpack from "../assets/webpack.png";
 import postgresql from "../assets/postgresql.png";
 
 export default class Portfolio extends Component {
-  show = event => {
-    // document.querySelector()
-    // let target = event.target;
-    // console.log("HOVER", target);
-  };
-  // hide = event => {
-
-  // }
   render() {
     return (
       <div className="portfolio__flex__container">

@@ -12,7 +12,7 @@ export default function Portfolio() {
       <main className="portfolio__grid__container">
         <h1 className="portfolio__header">Max Rediker</h1>
         <h2 className="portfolio__header portfolio--header--red">
-          Full-Stack Developer
+          Full Stack Developer
         </h2>
         <div className="projects__list__container">
           <p className="subheading">Projects:</p>
@@ -20,17 +20,25 @@ export default function Portfolio() {
             <li className="projects__list__item">
               <a
                 target="_blank"
-                href="https://github.com/githubmaxwell/dockerteam"
+                href="https://democracy-labs-ui-proto.github.io/democracylab_ui_proto/"
               >
-                CF Docker
+                Mobile Prototype
               </a>
             </li>
             <li className="projects__list__item">
               <a
                 target="_blank"
-                href="https://github.com/code-commando/dashboard-electron"
+                href="https://sgc2018-etap-web.herokuapp.com/"
               >
-                CF Dashboard
+                Recycle App
+              </a>
+            </li>
+            <li className="projects__list__item">
+              <a
+                target="_blank"
+                href="https://maxwellred.github.io/mondrian/"
+              >
+                Mondrian Painting
               </a>
             </li>
             <li className="projects__list__item">
@@ -68,7 +76,7 @@ export default function Portfolio() {
         </div>
         <div className="about__container">
           <p>
-            Hi! I'm Max and I am a Full-Stack Developer. MERN stack is my bread
+            Hi! I'm Max and I am a full stack Developer. MERN stack is my bread
             and butter but like most developers, I'm always learning new
             technologies and trying new things. I enjoy spending my free time
             going to meetups, hackathons, and collaborating with others to build

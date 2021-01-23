@@ -36,7 +36,7 @@ export default function Portfolio() {
             <li className="projects__list__item">
               <a
                 target="_blank"
-                href="https://github.com/GitHubMaxwell?tab=repositories"
+                href="https://github.com/maxwellred?tab=repositories"
               >
                 More...
               </a>
@@ -47,7 +47,7 @@ export default function Portfolio() {
           <p className="subheading">Contact:</p>
           <ul className="contact__list">
             <li className="contact__list__item">
-              <a target="_blank" href="https://github.com/GitHubMaxwell">
+              <a target="_blank" href="https://github.com/maxwellred">
                 <i className="fab fa-github fa-2x" />
               </a>
             </li>
@@ -68,7 +68,7 @@ export default function Portfolio() {
         </div>
         <div className="about__container">
           <p>
-            Hey! I'm Max and I am a Full-Stack Developer. MERN stack is my bread
+            Hi! I'm Max and I am a Full-Stack Developer. MERN stack is my bread
             and butter but like most developers, I'm always learning new
             technologies and trying new things. I enjoy spending my free time
             going to meetups, hackathons, and collaborating with others to build
@@ -78,46 +78,40 @@ export default function Portfolio() {
         <div className="tech-icons__container">
           <p className="subheading">Tech:</p>
           <ul className="tech-icons__list">
-            <li className="tech-icons__list__item tooltip">
+            <li className="tech-icons__list__item tooltip" title="JavaScript">
               <i className="fab fa-js" />
             </li>
-            <li className="tech-icons__list__item">
+            <li className="tech-icons__list__item" title="Node">
               <i className="fab fa-node-js" />
             </li>
-            <li className="tech-icons__list__item">
+            <li className="tech-icons__list__item" title="React">
               <i className="fab fa-react" />
             </li>
-            <li className="tech-icons__list__item">
+            <li className="tech-icons__list__item" title="Webpack">
               <img className="color" src={webpack} />
             </li>
-            <li className="tech-icons__list__item">
+            <li className="tech-icons__list__item" title="HTML5">
               <i className="fab fa-html5" />
             </li>
-            <li className="tech-icons__list__item">
+            <li className="tech-icons__list__item" title="CSS3">
               <i className="fab fa-css3-alt" />
             </li>
-            <li className="tech-icons__list__item">
+            <li className="tech-icons__list__item" title="Sass">
               <i className="fab fa-sass" />
             </li>
-            <li className="tech-icons__list__item">
-              <i className="fab fa-aws" />
-            </li>
-            <li className="tech-icons__list__item">
-              <i className="fab fa-docker" />
-            </li>
-            <li className="tech-icons__list__item">
+            <li className="tech-icons__list__item" title="Git">
               <img src={git} />
             </li>
-            <li className="tech-icons__list__item">
+            <li className="tech-icons__list__item" title="Heroku">
               <img src={heroku} />
             </li>
-            <li className="tech-icons__list__item">
+            <li className="tech-icons__list__item" title="PostgreSQL">
               <img src={postgresql} />
             </li>
-            <li className="tech-icons__list__item">
+            <li className="tech-icons__list__item" title="MongoDB">
               <img className="color" src={mongodb} />
             </li>
-            <li className="tech-icons__list__item">
+            <li className="tech-icons__list__item" title="jQuery">
               <img src={jquery} />
             </li>
           </ul>
